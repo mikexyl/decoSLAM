@@ -38,7 +38,7 @@ set_target_properties(visualization_msgs PROPERTIES
 # Hyper libraries
 FetchContent_Declare(HyperVariables GIT_REPOSITORY https://github.com/VIS4ROB-lab/HyperVariables.git GIT_TAG e46e67af46078a1163a7903d48bd98fe34cf4b62)
 FetchContent_MakeAvailable(HyperVariables)
-FetchContent_Declare(HyperSensors GIT_REPOSITORY https://github.com/VIS4ROB-lab/HyperSensors.git GIT_TAG a24e9e1a7043618623a75afb403ab24fe6aa14c0)
+FetchContent_Declare(HyperSensors GIT_REPOSITORY https://github.com/VIS4ROB-lab/HyperSensors.git GIT_TAG 3f0c8dcfc10687959c224f87af8f4f862218a2c2)
 FetchContent_MakeAvailable(HyperSensors)
 
 
